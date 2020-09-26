@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+@@include('components/_head.html')
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <main class="registration" style="background-image: url(images/register-bg.png);">
+    <div class="container">
+      <div class="registration__inner">
+        <div class="authorisation__logo registration__logo">
+          <a class="authorisation__logo-img" href="#">
+            <img src="images/logo.png" alt="">
+          </a>
+        </div>
+        <div class="registration__form">
+          <div class="registration__form-inner">
+            <div class="registration__form-title">
+              მოგესალმებით
+            </div>
+            <div class="registration__form-text">
+              პროექტზე სათამაშოთ საჭიროა გაიაროთ მარტივი რეგისტრაცია, შემდეგ დაუკავშირდეთ თქვენს ექაუნთს და შექმნათ
+              პერსონაჟი.
+            </div>
+            <form>
+              <input class="registration__form-field" type="text" placeholder="ექაუნთის სახელი" required>
+              <input class="registration__form-field" type="email" placeholder="თქვენი იმეილი" required>
+              <input class="registration__form-field" type="text" placeholder="შეიყვანეთ პაროლი" required>
+              <input class="registration__form-field" type="text" placeholder="გაიმეორეთ პაროლი" required>
+              <div class="registration__politics">
+                <div class="registration__politics-item">
+                  <input class="registration__politics-checkbox" type="checkbox" id="checkbox">
+                  <div class="registration__politics-descr">
+                    ვეთანხმები სერვერზე დაწესებულ პირობებს და დავემორჩილები ყველა არსებულ წესს.
+                  </div>
+                </div>
+                <div class="registration__politics-item">
+                  <input class="registration__politics-checkbox" type="checkbox" id="checkbox">
+                  <div class="registration__politics-descr">
+                    გამოიწერეთ სიახლეები და მიიღეთ ყველანაირი სიახლე იმეილზე.
+                  </div>
+                </div>
+              </div>
+              <div class="registration__politics-btn">
+                <button class="registration-btn" type="submit" name="send-sms" disabled="disabled" id="send-sms">რეგისტრაცია</button>
+                <a class="authorization-btn" href="index.html">ავტორიზაცია</a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  @@include('components/_scripts.html')
+</body>
+
+</html>

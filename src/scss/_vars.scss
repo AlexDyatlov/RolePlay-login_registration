@@ -1,0 +1,16 @@
+
+
+@mixin f400{
+  font-family: 'BPGExtraSquareMtavruli';
+  font-weight: 400;
+}
+
+@mixin f700{
+  font-family: 'BankGothicBold', sans-serif;
+  font-weight: 700;
+}
+
+@mixin BPGB{
+  font-family: 'BPGBannerExtraSquareCaps';
+  font-weight: 400;
+}

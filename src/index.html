@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+@@include('components/_head.html')
+
+<body>
+  @@include('components/_header.html')
+  <!-- WRITE CODE HERE -->
+  <main class="authorisation">
+    <div class="container">
+      <div class="authorisation__inner">
+        <div class="authorisation__box">
+          <div class="authorisation__box-form">
+            <form>
+              <img src="images/user.png" alt="">
+              <input class="form-login" type="text" placeholder="სახელი" required>
+              <input class="form-register" type="text" placeholder="პაროლი" required>
+              <div class="buttons__box">
+                <a class="btn form-login__btn" href="#">შესვლა</a>
+                <a class="btn form-register__btn" href="page.html">რეგისტრაცია</a>
+              </div>
+              <a class="lost-pass" href="#">პაროლის აღდგენა</a>
+            </form>
+          </div>
+          <div class="item__block" style="background-image: url(images/auto-1.png);">
+            <a class="item__block-btn" href="#">ვიზუალური განახლება</a>
+            <div class="item__block-text">
+              <p>
+                Car tuning is the modification of a car to optimise it for a different set of performance requirements
+                from those it was originally designed to meet.
+              </p>
+            </div>
+            <p class="item__block-time"><time datetime="2020-06-12">12 ივნისი - 2020</time></p>
+          </div>
+          <div class="item__block" style="background-image: url(images/auto-2.png);">
+            <a class="item__block-btn" href="#">ტუნინგ განახლება</a>
+            <div class="item__block-text">
+              <p>
+                Car tuning is the modification of a car to optimise it for a different set of performance requirements
+                from those it was originally designed to meet.
+              </p>
+            </div>
+            <p class="item__block-time"><time datetime="2020-06-11">11 ივნისი - 2020</time></p>
+          </div>
+        </div>
+        <div class="authorisation__logo registration__logo">
+          <a class="authorisation__logo-img" href="#">
+            <img src="images/logo.png" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- STOP WRITE CODE -->
+  @@include('components/_footer.html')
+  @@include('components/_scripts.html')
+</body>
+
+</html>

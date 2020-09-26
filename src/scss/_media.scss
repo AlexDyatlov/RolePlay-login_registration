@@ -1,0 +1,121 @@
+@media (max-width: 1920px){
+  .authorisation{
+    padding-top: 60px;
+    &__box{
+      max-width: 795px;
+      margin-bottom: 57px;
+    }
+    &__logo{
+      img{
+        width: 200px;
+      }
+    }
+  }
+  .authorisation__box-form{
+    max-width: 795px;
+    padding: 30px 25px;
+    input{
+      font-size: 22px;
+      line-height: 30px;
+      height: 50px;
+      &::placeholder{
+        font-size: 30px;
+        line-height: 34px;
+      }
+    }
+  }
+  .buttons__box{
+    margin-bottom: 15px;
+  }
+  .btn{
+    padding: 5px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .item__block{
+    margin-top: 15px;
+    min-height: 170px;
+    padding: 39px 20px 55px;
+    &-btn{
+      padding: 5px 30px 7px;
+       font-size: 21px;
+      line-height: 28px;
+    }
+    &-text{
+      max-width: 490px;
+      font-size: 15px;
+      line-height: 20px;
+      margin: 15px auto 0;
+    }
+    &-time{
+      font-size: 15px;
+      line-height: 20px;
+      padding: 0 10px 0 5px;
+    }
+  }
+  .footer__inner{
+    img{
+      right: 0;
+    }
+  }
+  .menu__list{
+    li + li{
+      margin-left: 50px;
+    }
+    a{
+      font-size: 22px;
+      line-height: 30px;
+    }
+  }
+  .footer__container{
+    max-width: 1395px;
+  }
+  .registration{
+    padding: 65px 0 100px;
+  }
+}
+@media (max-width: 1366px){
+  .authorisation {
+    padding-top: 20px;
+    &__box{
+      margin-bottom: 10px;
+    }
+  }
+  .authorisation__box-form img{
+    width: 75px;
+  }
+  .authorisation__box-form{
+    padding: 25px;
+  }
+  .item__block{
+    min-height: 150px;
+    padding: 30px 20px 25px;
+  }
+  .footer__inner {
+    padding: 14px 0 12px 15px;
+    img{
+      bottom: 0px;
+      height: 410px;
+      width: 380px;
+      right: -30px;
+    }
+  }
+  .menu__list li+li {
+    margin-left: 40px;
+    position: relative;
+    z-index: 5;
+  }
+  .registration{
+    padding: 22px 0;
+  }
+  .registration__form{
+    padding: 32px 0 32px;
+    margin: 30px auto 0;
+    &-text{
+      margin-bottom: 30px;
+    }
+  }
+  .registration__politics-btn {
+    margin-top: 20px;
+  }
+}
